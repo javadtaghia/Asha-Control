@@ -1,7 +1,7 @@
 Asha-Control
 ============
 
-Control toolbox in C++
+Control toolbox in C++l
 The Toolbox contains 8 major parts:
 1. state space description
 2. solver
@@ -11,5 +11,6 @@ The Toolbox contains 8 major parts:
 6. shared memory
 7. plotter
 8. extra
+
 =======
 
