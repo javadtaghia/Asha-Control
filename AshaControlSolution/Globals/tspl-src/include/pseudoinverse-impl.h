@@ -76,7 +76,7 @@ Matrix<Real> pinv( const Matrix<Real> &A, Real tol )
  * Compute the pseudoinverse of a complex matrix.
  */
 template <typename Type>
-Matrix<complex<Type> > pinv( const Matrix<complex<Type> > &A, Type tol )
+Matrix<complex<Type> > cpinv( const Matrix<complex<Type> > &A, Type tol )
 {
     int m = A.rows(),
         n = A.cols();

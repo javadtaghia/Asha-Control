@@ -56,7 +56,7 @@ namespace splab
     Matrix<Real> pinv( const Matrix<Real>&, Real tol=Real(-1.0) );
 
     template<typename Type>
-    Matrix<complex<Type> > pinv( const Matrix<complex<Type> >&,
+    Matrix<complex<Type> > cpinv( const Matrix<complex<Type> >&,
                                  Type tol=Type(-1.0) );
 
 

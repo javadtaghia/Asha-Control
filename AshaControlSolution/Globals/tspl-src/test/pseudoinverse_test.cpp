@@ -40,7 +40,7 @@ int main()
     cout << "The multiplication of A and its inverse is : " << A*invA << endl;
 
     Matrix<complex<Type> > cA = complexMatrix(A,-A);
-    Matrix<complex<Type> > cPIA = pinv(cA);
+    Matrix<complex<Type> > cPIA = cpinv(cA);
     cout << "The original complex matrix A is : "
          << setprecision(0) << cA << endl;
     cout << setiosflags(ios::fixed) << setprecision(4);
