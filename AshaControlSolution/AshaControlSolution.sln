@@ -3,15 +3,20 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AshaSolverEXE", "AshaSolverEXE\AshaSolverEXE.vcxproj", "{CA4C9CF2-FF64-469A-B054-E3145A75503D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tspl-project-edit", "tspl-project-edit\tspl-project-edit.vcxproj", "{C8D2E367-634E-437B-A9F2-902B44CB6DFB}"
+EndProject
 Global
 	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 2
+		SccNumberOfProjects = 3
 		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
 		SccTeamFoundationServer = https://javadtaghia.visualstudio.com/defaultcollection
 		SccLocalPath0 = .
 		SccProjectUniqueName1 = AshaSolverEXE\\AshaSolverEXE.vcxproj
 		SccProjectName1 = AshaSolverEXE
 		SccLocalPath1 = AshaSolverEXE
+		SccProjectUniqueName2 = tspl-project-edit\\tspl-project-edit.vcxproj
+		SccProjectName2 = tspl-project-edit
+		SccLocalPath2 = tspl-project-edit
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -22,6 +27,10 @@ Global
 		{CA4C9CF2-FF64-469A-B054-E3145A75503D}.Debug|Win32.Build.0 = Debug|Win32
 		{CA4C9CF2-FF64-469A-B054-E3145A75503D}.Release|Win32.ActiveCfg = Release|Win32
 		{CA4C9CF2-FF64-469A-B054-E3145A75503D}.Release|Win32.Build.0 = Release|Win32
+		{C8D2E367-634E-437B-A9F2-902B44CB6DFB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C8D2E367-634E-437B-A9F2-902B44CB6DFB}.Debug|Win32.Build.0 = Debug|Win32
+		{C8D2E367-634E-437B-A9F2-902B44CB6DFB}.Release|Win32.ActiveCfg = Release|Win32
+		{C8D2E367-634E-437B-A9F2-902B44CB6DFB}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

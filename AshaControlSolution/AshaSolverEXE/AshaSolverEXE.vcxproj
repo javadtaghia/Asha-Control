@@ -45,6 +45,7 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Users\JavadTaghia\Documents\GitHub\Asha-Control\AshaControlSolution\Globals\classes;C:\Users\JavadTaghia\Documents\GitHub\Asha-Control\AshaControlSolution\Globals\includes;C:\Users\JavadTaghia\Documents\GitHub\Asha-Control\AshaControlSolution\Globals\tspl-porject\include;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
@@ -80,12 +81,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\Globals\classes\generalFunctions.cpp" />
     <ClCompile Include="MainSolver.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\Globals\classes\generalFunctions.h" />
-    <ClInclude Include="..\Globals\includes\global.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

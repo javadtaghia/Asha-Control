@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C8D2E367-634E-437B-A9F2-902B44CB6DFB}</ProjectGuid>
+    <SccProjectName>SAK</SccProjectName>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccProvider>SAK</SccProvider>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>tsplprojectedit</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Globals\classes\generalFunctions-impl.h" />
+    <ClInclude Include="..\Globals\classes\generalFunctions.h" />
+    <ClInclude Include="..\Globals\includes\global.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\advmath-impl.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\advmath.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\avltree-impl.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\avltree.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\bfgs-impl.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\bfgs.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\binaryheap-impl.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\binaryheap.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\bstree-impl.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\bstree.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\bwt-impl.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\bwt.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\ccholesky-impl.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\ccholesky.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\cevd-impl.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\cevd.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\cholesky-impl.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\cholesky.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\classicalpse-impl.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\classicalpse.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\conjgrad-impl.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\conjgrad.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\constants.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\convolution-impl.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\convolution.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\convolution_usefftw-impl.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\convolution_usefftw.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\correlation-impl.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\correlation.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\correlation_usefftw-impl.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\correlation_usefftw.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\cqrd-impl.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\cqrd.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\csvd-impl.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\csvd.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\cwt-impl.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\cwt.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\cwt_usefftw-impl.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\cwt_usefftw.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\dfd-impl.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\dfd.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\dgt-impl.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\dgt.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\dgt_usefftw-impl.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\dgt_usefftw.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\dwt-impl.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\dwt.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\eigenanalysispse-impl.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\eigenanalysispse.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\evd-impl.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\evd.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\fft-impl.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\fft.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\fftmr-impl.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\fftmr.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\fftpf-impl.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\fftpf.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\fftw-impl.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\fftw.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\fftw3.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\filtercoefs-impl.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\filtercoefs.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\fir-impl.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\fir.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\fitcurves.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\hashtable-impl.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\hashtable.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\huffmancode-impl.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\huffmancode.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\iir-impl.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\iir.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\integral-impl.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\integral.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\integrand.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\interpolation.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\inverse-impl.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\inverse.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\kalman-impl.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\kalman.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\levinson-impl.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\levinson.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\linequs1-impl.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\linequs1.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\linequs2-impl.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\linequs2.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\linequs3-impl.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\linequs3.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\linesearch-impl.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\linesearch.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\lms-impl.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\lms.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\lsfitting-impl.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\lsfitting.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\lud-impl.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\lud.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\matrix-impl.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\matrix.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\matrixallocate-impl.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\matrixallocate.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\matrixmath-impl.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\matrixmath.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\newtoninterp-impl.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\newtoninterp.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\nleroot-impl.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\nleroot.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\nleroots-impl.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\nleroots.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\nlfunc.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\nlfuncs.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\objfunc.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\parametricpse-impl.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\parametricpse.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\pseudoinverse-impl.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\pseudoinverse.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\qrd-impl.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\qrd.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\queue-impl.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\queue.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\random-impl.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\random.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\rls-impl.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\rls.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\sort-impl.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\sort.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\spline3interp-impl.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\spline3interp.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\stack-impl.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\stack.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\statistics-impl.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\statistics.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\steepdesc-impl.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\steepdesc.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\student.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\svd-impl.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\svd.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\timing-impl.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\timing.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\toeplitz-impl.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\toeplitz.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\usingdeclare.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\utilities-impl.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\utilities.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\vector-impl.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\vector.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\vectormath-impl.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\vectormath.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\wft-impl.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\wft.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\wft_usefftw-impl.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\wft_usefftw.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\wiener-impl.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\wiener.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\window-impl.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\window.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\wvd-impl.h" />
+    <ClInclude Include="..\Globals\tspl-porject\include\wvd.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

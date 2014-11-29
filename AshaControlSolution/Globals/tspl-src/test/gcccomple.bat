@@ -1,0 +1,1 @@
+g++ fftw_test.cpp -I ../include -L ../lib -lfftw3 -lfftw3f -lfftw3l
